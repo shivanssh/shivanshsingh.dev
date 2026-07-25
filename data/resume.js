@@ -105,7 +105,7 @@ export const resumeData = {
         "React.js",
         "CSS Modules",
         "Claude Opus",
-        "Gemini Flash",
+        "Gemini 3.5",
         "GPT-5.5",
       ],
       github: "https://github.com/shivanssh/portfolio-via-ai",
