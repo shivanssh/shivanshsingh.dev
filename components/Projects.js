@@ -69,6 +69,29 @@ export default function Projects({ projects }) {
                   </li>
                 ))}
               </ul>
+
+              <div className={styles.projectActions}>
+                {project.github && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.projectAction}
+                  >
+                    View Code
+                  </a>
+                )}
+                {project.live && (
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`${styles.projectAction} ${styles.liveAction}`}
+                  >
+                    Live Preview
+                  </a>
+                )}
+              </div>
             </div>
           ))}
         </div>

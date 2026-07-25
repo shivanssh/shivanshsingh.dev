@@ -109,7 +109,7 @@ export const resumeData = {
         "GPT-5.5",
       ],
       github: "https://github.com/shivanssh/portfolio-via-ai",
-      live: "",
+      live: "https://portfolio-via-ai.vercel.app/",
       highlights: [
         "SSG / ISR rendering for ultra-fast CDN page loading",
         "Professional dark interface theme tailored for a UI developer profile",
