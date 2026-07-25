@@ -1,0 +1,33 @@
+.footer {
+  padding: 3rem 0;
+  border-top: 1px solid var(--border-subtle);
+  background: rgba(10, 13, 18, 0.92);
+}
+
+.footerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.backToTop {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  color: var(--accent-blue);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: all 0.2s ease;
+}
+
+.backToTop:hover {
+  transform: translateY(-2px);
+  color: var(--text-primary);
+}
