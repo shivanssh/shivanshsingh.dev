@@ -1,6 +1,6 @@
 # Shivansh Singh Portfolio
 
-Professional UI developer portfolio built with Next.js. It showcases experience, skills, featured projects, certifications, and contact details through a polished responsive interface.
+Professional Senior full stack developer portfolio built with Next.js. It showcases experience, skills, featured projects, certifications, and contact details through a polished responsive interface.
 
 ## Overview
 
