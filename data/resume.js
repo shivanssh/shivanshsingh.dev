@@ -99,7 +99,7 @@ export const resumeData = {
       title: "Personal Portfolio Site",
       subtitle: "Modern Next.js Showcase",
       description:
-        "Professional UI developer portfolio built with Next.js to present experience, projects, skills, and certifications through a polished responsive interface. Used Claude Opus, Gemini Flash, and GPT-5.5 during ideation and iteration for theme direction, content refinement, and UI quality checks.",
+        "Professional UI developer portfolio built with Next.js to present experience, projects, skills, and certifications through a polished responsive interface.Used AI assistance for theme direction, content refinement, and UI quality checks.",
       stack: [
         "Next.js 14",
         "React.js",

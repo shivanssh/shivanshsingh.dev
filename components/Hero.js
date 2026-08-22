@@ -1,18 +1,18 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
-import styles from './Hero.module.css';
+import { useState, useEffect } from "react";
+import styles from "./Hero.module.css";
 
 export default function Hero({ personalInfo }) {
   const titles = [
-    'Senior UI & Frontend Engineer',
-    'Design Systems & Component Architecture',
-    'React.js / Next.js Specialist @ Deloitte',
-    'Accessible, High-Performance Interfaces'
+    "Senior UI & Frontend Engineer",
+    "Design Systems & Component Architecture",
+    "React.js / Next.js Specialist @ Deloitte",
+    "Accessible, High-Performance Interfaces",
   ];
 
   const [titleIndex, setTitleIndex] = useState(0);
-  const [currentText, setCurrentText] = useState('');
+  const [currentText, setCurrentText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
 
   useEffect(() => {
@@ -23,7 +23,7 @@ export default function Hero({ personalInfo }) {
       speed = 2200;
       const timer = setTimeout(() => setIsDeleting(true), speed);
       return () => clearTimeout(timer);
-    } else if (isDeleting && currentText === '') {
+    } else if (isDeleting && currentText === "") {
       setIsDeleting(false);
       setTitleIndex((prev) => (prev + 1) % titles.length);
       return;
@@ -33,7 +33,7 @@ export default function Hero({ personalInfo }) {
       setCurrentText(
         isDeleting
           ? fullText.substring(0, currentText.length - 1)
-          : fullText.substring(0, currentText.length + 1)
+          : fullText.substring(0, currentText.length + 1),
       );
     }, speed);
 
@@ -51,7 +51,9 @@ export default function Hero({ personalInfo }) {
         <div>
           <div className={styles.badge}>
             <span className={styles.pulseDot}></span>
-            <span>UI Developer focused on polished product experiences</span>
+            <span>
+              Senior Full Stack Engineer | React.js • Next.js • Node.js
+            </span>
           </div>
 
           <p className={styles.greeting}>Hello, I'm</p>
@@ -63,13 +65,25 @@ export default function Hero({ personalInfo }) {
           </div>
 
           <p className={styles.description}>
-            I build refined, accessible interfaces and scalable frontend systems with <strong>5+ years of experience</strong> across <strong>Insurance, Banking & Media</strong>. My work sits where React, Next.js, design systems, performance, and product detail meet.
+            I build refined, accessible interfaces and scalable frontend systems
+            with <strong>5+ years of experience</strong> across{" "}
+            <strong>Insurance, Banking & Media</strong>. My work sits where
+            React, Next.js, design systems, performance, and product detail
+            meet.
           </p>
 
           <div className={styles.actions}>
             <a href="#projects" className={styles.btnPrimary}>
               View Selected Work
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round">
                 <line x1="5" y1="12" x2="19" y2="12"></line>
                 <polyline points="12 5 19 12 12 19"></polyline>
               </svg>
