@@ -74,4 +74,4 @@ npm run build
 ## Author
 
 Shivansh Singh  
-Senior UI & Frontend Engineer
+Senior Full Stack Engineer | React.js • Next.js • Node.js
