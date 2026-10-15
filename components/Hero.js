@@ -51,9 +51,7 @@ export default function Hero({ personalInfo }) {
         <div>
           <div className={styles.badge}>
             <span className={styles.pulseDot}></span>
-            <span>
-              Senior Full Stack Engineer | React.js • Next.js • Node.js
-            </span>
+            <span>Senior Frontend Engineer | React.js • Next.js • Node.js</span>
           </div>
 
           <p className={styles.greeting}>Hello, I'm</p>
