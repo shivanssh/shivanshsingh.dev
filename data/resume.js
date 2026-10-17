@@ -1,16 +1,16 @@
 export const resumeData = {
   personalInfo: {
     name: "Shivansh Singh",
-    title: "Senior UI & Frontend Engineer",
+    title: "Senior Full Stack Engineer",
     subtitle: "React.js | Next.js | Node.js",
     email: "kaushik.shivansh.dev@gmail.com",
     location: "Mumbai, India",
     linkedin: "https://linkedin.com/in/shivansh-singh",
     github: "https://github.com",
     profileBio:
-      "Senior UI & Frontend Engineer with 5+ years of experience building scalable, high-performance web applications using React.js, Next.js, and Node.js in insurance, banking, and media domains. Skilled in responsive interfaces, RESTful APIs, authentication/SSO solutions, and design-system-minded frontend development. Experienced in TDD, Agile delivery, DevOps workflows, and AI-assisted development tools including Amazon Q and GitHub Copilot.",
+      "Senior Full Stack Engineer with 6+ years of experience building scalable, high-performance web applications using React.js, Next.js, and Node.js in insurance, banking, and media domains. Skilled in responsive interfaces, RESTful APIs, authentication/SSO solutions, and design-system-minded frontend development. Experienced in TDD, Agile delivery, DevOps workflows, and AI-assisted development tools including Amazon Q and GitHub Copilot.",
     stats: [
-      { label: "Years of Experience", value: "5+" },
+      { label: "Years of Experience", value: "6+" },
       { label: "Key Domains", value: "3" }, // Insurance, Banking, Media
       { label: "Test Coverage Boost", value: "80%+" },
       { label: "Perf Optimization", value: "30%" },
@@ -66,7 +66,7 @@ export const resumeData = {
   ],
   experience: [
     {
-      role: "Consultant - React / Next / Node.js Developer",
+      role: "Consultant - React.js / Next.js / Node.js Developer",
       company: "Deloitte",
       location: "Mumbai, India",
       period: "Nov 2023 – Present",
@@ -81,7 +81,7 @@ export const resumeData = {
       ],
     },
     {
-      role: "Senior Software Engineer - React / Node.js Developer",
+      role: "Senior Software Engineer - React.js / Node.js Developer",
       company: "LTIMindtree",
       location: "Mumbai, India",
       period: "Jan 2021 – Nov 2023",
@@ -100,14 +100,7 @@ export const resumeData = {
       subtitle: "Modern Next.js Showcase",
       description:
         "Professional UI developer portfolio built with Next.js to present experience, projects, skills, and certifications through a polished responsive interface.Used AI assistance for theme direction, content refinement, and UI quality checks.",
-      stack: [
-        "Next.js 14",
-        "React.js",
-        "CSS Modules",
-        "Claude Opus",
-        "Gemini 3.5",
-        "GPT-5.5",
-      ],
+      stack: ["Next.js 14", "React.js", "CSS Modules"],
       github: "https://github.com/shivanssh/portfolio-via-ai",
       live: "https://portfolio-via-ai.vercel.app/",
       highlights: [

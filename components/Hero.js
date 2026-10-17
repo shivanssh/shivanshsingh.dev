@@ -5,9 +5,9 @@ import styles from "./Hero.module.css";
 
 export default function Hero({ personalInfo }) {
   const titles = [
-    "Senior UI & Frontend Engineer",
+    "Senior Full Stack Engineer",
     "Design Systems & Component Architecture",
-    "React.js / Next.js Specialist @ Deloitte",
+    "React.js / Next.js / Node.js Specialist @ Deloitte",
     "Accessible, High-Performance Interfaces",
   ];
 
@@ -51,7 +51,9 @@ export default function Hero({ personalInfo }) {
         <div>
           <div className={styles.badge}>
             <span className={styles.pulseDot}></span>
-            <span>Senior Frontend Engineer | React.js • Next.js • Node.js</span>
+            <span>
+              Senior Full Stack Engineer | React.js • Next.js • Node.js
+            </span>
           </div>
 
           <p className={styles.greeting}>Hello, I'm</p>
@@ -63,11 +65,11 @@ export default function Hero({ personalInfo }) {
           </div>
 
           <p className={styles.description}>
-            I build refined, accessible interfaces and scalable frontend systems
-            with <strong>5+ years of experience</strong> across{" "}
+            I build refined, accessible interfaces and scalable systems with{" "}
+            <strong>6+ years of experience</strong> across{" "}
             <strong>Insurance, Banking & Media</strong>. My work sits where
-            React, Next.js, design systems, performance, and product detail
-            meet.
+            React, Next.js,Node.js design systems, performance, and product
+            detail meet.
           </p>
 
           <div className={styles.actions}>
