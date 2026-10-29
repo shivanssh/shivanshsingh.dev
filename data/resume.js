@@ -1,14 +1,14 @@
 export const resumeData = {
   personalInfo: {
     name: "Shivansh Singh",
-    title: "Senior Full Stack Engineer",
+    title: "Senior React and Node.js Engineer",
     subtitle: "React.js | Next.js | Node.js",
     email: "kaushik.shivansh.dev@gmail.com",
     location: "Mumbai, India",
     linkedin: "https://linkedin.com/in/shivansh-singh",
     github: "https://github.com",
     profileBio:
-      "Senior Full Stack Engineer with 6+ years of experience building scalable, high-performance web applications using React.js, Next.js, and Node.js in insurance, banking, and media domains. Skilled in responsive interfaces, RESTful APIs, authentication/SSO solutions, and design-system-minded frontend development. Experienced in TDD, Agile delivery, DevOps workflows, and AI-assisted development tools including Amazon Q and GitHub Copilot.",
+      "Senior React and Node.js Engineer with 6+ years of experience building scalable, high-performance web applications using React.js, Next.js, and Node.js in insurance, banking, and media domains. Skilled in responsive interfaces, RESTful APIs, authentication/SSO solutions, and design-system-minded frontend development. Experienced in TDD, Agile delivery, DevOps workflows, and AI-assisted development tools including Amazon Q and GitHub Copilot.",
     stats: [
       { label: "Years of Experience", value: "6+" },
       { label: "Key Domains", value: "3" }, // Insurance, Banking, Media

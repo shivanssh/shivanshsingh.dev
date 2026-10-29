@@ -29,7 +29,9 @@ export default function About({ personalInfo, education }) {
                   <polyline points="2 12 12 17 22 12"></polyline>
                 </svg>
               </div>
-              <h3 className={styles.cardTitle}>Senior Full Stack Engineer</h3>
+              <h3 className={styles.cardTitle}>
+                Senior React and Node.js Engineer
+              </h3>
               <p className={styles.cardDesc}>{personalInfo.profileBio}</p>
             </div>
 

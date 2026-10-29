@@ -5,7 +5,7 @@ import styles from "./Hero.module.css";
 
 export default function Hero({ personalInfo }) {
   const titles = [
-    "Senior Full Stack Engineer",
+    "Senior React and Node.js Engineer",
     "Design Systems & Component Architecture",
     "React.js / Next.js / Node.js Specialist @ Deloitte",
     "Accessible, High-Performance Interfaces",
@@ -51,9 +51,7 @@ export default function Hero({ personalInfo }) {
         <div>
           <div className={styles.badge}>
             <span className={styles.pulseDot}></span>
-            <span>
-              Senior Full Stack Engineer | React.js • Next.js • Node.js
-            </span>
+            <span>Senior React and Node.js Engineer</span>
           </div>
 
           <p className={styles.greeting}>Hello, I'm</p>
