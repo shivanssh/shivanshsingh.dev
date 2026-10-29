@@ -1,6 +1,6 @@
 # Shivansh Singh Portfolio
 
-Professional Senior React and Node.js Engineer portfolio built with Next.js. It showcases experience, skills, featured projects, certifications, and contact details through a polished responsive interface.
+Professional Senior Software Engineer | React.js • Next.js • Node.js, portfolio built with Next.js. It showcases experience, skills, featured projects, certifications, and contact details through a polished responsive interface.
 
 ## Getting Started
 
@@ -25,4 +25,4 @@ npm run build
 ## Author
 
 Shivansh Singh  
-Senior React and Node.js Engineer
+Senior Software Engineer | React.js • Next.js • Node.js Engineer

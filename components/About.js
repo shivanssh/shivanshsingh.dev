@@ -30,7 +30,7 @@ export default function About({ personalInfo, education }) {
                 </svg>
               </div>
               <h3 className={styles.cardTitle}>
-                Senior React and Node.js Engineer
+                Senior Software Engineer | React.js • Next.js • Node.js
               </h3>
               <p className={styles.cardDesc}>{personalInfo.profileBio}</p>
             </div>

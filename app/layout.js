@@ -1,11 +1,12 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Shivansh Singh | Senior React and Node.js Engineer",
+  title:
+    "Shivansh Singh | Senior Software Engineer | React.js • Next.js • Node.js",
   description:
-    "Senior React and Node.js Engineer with 6+ years of experience specializing in React.js, Next.js, Node.js, responsive interfaces, and scalable frontend systems.",
+    "Senior Software Engineer | React.js • Next.js • Node.js with 6+ years of experience specializing in React.js, Next.js, Node.js, responsive interfaces, and scalable frontend systems.",
   keywords: [
-    "React and Node.js Developer",
+    "Software Engineer | React.js • Next.js • Node.js",
     "Shivansh Singh",
     "React.js Developer",
     "Next.js Developer",
@@ -13,8 +14,9 @@ export const metadata = {
   ],
   authors: [{ name: "Shivansh Singh" }],
   openGraph: {
-    title: "Shivansh Singh | Senior React and Node.js Engineer",
-    description: "Senior React and Node.js Engineer",
+    title:
+      "Shivansh Singh | Senior Software Engineer | React.js • Next.js • Node.js",
+    description: "Senior Software Engineer | React.js • Next.js • Node.js",
     url: "https://shivansh-singh.dev",
     siteName: "Shivansh Singh Portfolio",
     locale: "en_IN",
